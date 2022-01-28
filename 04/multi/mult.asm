@@ -1,6 +1,6 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
+// by Nisan and Schocken, MIT Press. 
 // File name: projects/04/Mult.asm
 
 // Multiplies R0 and R1 and stores the result in R2.
