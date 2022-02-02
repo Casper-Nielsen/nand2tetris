@@ -1,0 +1,25 @@
+class Main {
+    function void main() {
+        var List list;
+        var Player player;
+        var char key;
+        var boolean firstTime;
+        let firstTime = true;
+        let list = List.new();
+        while(true){
+            let key = Keyboard.keyPressed();
+            if(key = 32) {
+                if(firstTime){
+                    let firstTime = false;
+                    let player = Player.new();
+                    do list.add(player);
+                }
+            }else{
+                let firstTime = true;
+            }
+            do list.pulse();
+            do Sys.wait(5);
+        }
+        return;
+    }
+}
